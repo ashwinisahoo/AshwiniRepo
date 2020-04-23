@@ -1,2 +1,2 @@
 # AshwiniRepo
-Testing Git Hib Build
+Printing Readme content
