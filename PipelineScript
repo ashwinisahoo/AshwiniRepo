@@ -1,0 +1,11 @@
+node{
+    stage('Create File'){
+     sh label: '', script: 'touch NewFile'   
+    }
+    stage('Write File'){
+     sh label: '', script: 'echo “This is a message” > NewFile'   
+    }
+    stage('Print File'){
+     sh label: '', script: 'cat NewFile'   
+    }
+}
