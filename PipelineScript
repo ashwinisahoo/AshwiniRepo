@@ -8,4 +8,7 @@ node{
     stage('Print File'){
      sh label: '', script: 'cat NewFile'   
     }
+    stage ('Email'){
+    mail bcc: '', body: 'Test email ', cc: '', from: '', replyTo: '', subject: 'Build successful', to: 'ashwini.sahoo.sahoo@oracle.com'
+    }
 }
